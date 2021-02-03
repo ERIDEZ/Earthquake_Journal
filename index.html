@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://bootswatch.com/4/journal/bootstrap.css">
+    <title>The Earthquake Journal</title>
+</head>
+<body>
+    <div id="maincontainer">
+    <div id="Title">
+        <h1 style="text-align:center">The Earthquake Journal</h1>
+    </div>
+    <hr>
+    <div id="intro">
+        <p style="text-align:center">In this site, you will find the latest information about earthquakes happening in the US and worldwide for the last week.<br>Feel free to refresh the site as many time as you wish!</p>
+    </div   >
+    <div id="mapid"></div>
+    <div id="tablediv">
+        <table style="width:100%" id="table">
+            <tr>
+                <th>Date</th>
+                <th>Location</th>
+                <th>Magnitude (Richter)</th>
+                <th>Type</th>
+            </tr>
+          </table>
+    </div>
+    </div>
+</body>
+<script src="Resources/config.js"></script>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="Resources/choropleth.js"></script>
+<script src="logic.js"></script>
+</html>

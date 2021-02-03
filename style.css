@@ -1,0 +1,9 @@
+body, #mapid{
+    height: 500px;
+    width: 600px;
+}
+
+.maincontainer{
+    width:990px;
+    margin: 0 auto;
+}
