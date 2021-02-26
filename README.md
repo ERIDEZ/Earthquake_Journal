@@ -9,3 +9,5 @@ In this project, I was able to map diverse earthquakes happening around the worl
 With the help of a scatterplot over the map, the magnitude of the tremors is easily identified.
 
 A Mapbox API Key is needed for the correct operation of these scripts.
+
+[Map](Resources/Images/Capture.PNG)
