@@ -10,4 +10,4 @@ With the help of a scatterplot over the map, the magnitude of the tremors is eas
 
 A Mapbox API Key is needed for the correct operation of these scripts.
 
-[Map](Resources/Images/Capture.PNG)
+![Map](Resources/Images/Capture.PNG)
